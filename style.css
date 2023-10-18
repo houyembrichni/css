@@ -1,5 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
-*{font-family: "roboto";}
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap");
+* {
+  font-family: "roboto";
+}
+nav {
+  text-align: center;
+}
 nav li {
   display: inline;
   padding: 15px;
@@ -9,32 +14,44 @@ nav a {
   text-decoration: none;
   font-size: 20px;
 }
-.hello{
-    
+
+nav a:hover {
+  color: brown;
+  border: 1px solid brown;
+  border-radius: 5px;
 }
 .hello h1 {
   color: brown;
   text-align: center;
   border: 1px solid brown;
-  margin-left: 400px;
-  margin-right: 400px;
+  margin-left: 465px;
+  margin-right: 420px;
   border-radius: 20px;
-} 
+}
 
 .hello h2 {
   color: brown;
   text-decoration-line: underline;
-} 
+}
 h3 {
   color: blue;
 }
 p {
   font-family: Georgia, "Times New Roman", Times, serif;
-}
-p {
   font-size: medium;
+}
+.exp li {
+  font-size: 20px;
+  font-family: "Times New Roman", Times, serif;
 }
 h4 {
   color: blue;
 }
-li{font-family: 'Times New Roman', Times, serif;} 
+li {
+  font-family: "Times New Roman", Times, serif;
+}
+
+.desc {
+  font-size: 20px;
+  color: blue;
+}
